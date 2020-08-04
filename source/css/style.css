@@ -1,0 +1,206 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 0 0 0 0;
+	margin: 0;
+}
+.wrapper {
+	padding: 0 30px;
+}
+.title {
+	font-weight: 900;
+	font-size: 25px;
+	letter-spacing: -0.31px;
+	margin: 0;
+	line-height: 30px;
+}
+.menu {
+}
+.logo {
+	width: 100%;
+}
+.slide {
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 20px;
+	display: flex;
+	width: 100%;
+	background-image: url(../image/header/ic-next.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 20px;
+	height: 60px;
+	align-items: center;
+}
+
+
+/* HEADER */
+.header {
+	background-color: #2d2d42;
+	color: #f4f4f7;
+	width: 100%;
+	padding: 30px 0 0 0;
+}
+.header__menu-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.logo--header {
+	width:140px;
+	height: 30px;
+}
+.menu--header {
+	display: none;
+}
+/* BURGER */
+.header__burger {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	border-bottom:1px solid #f4f4f7;
+	position: relative;
+}
+.header__burger::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	border-bottom:1px solid #f4f4f7;
+	position: absolute;
+	top: 6px;
+}
+.header__burger::after {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	border-bottom:1px solid #f4f4f7;
+	position: absolute;
+	top: -6px;
+}
+.header__burger:active {
+	transition: 1s;
+	visibility: hidden;
+}
+.header__burger::before:active {
+
+}
+.header__burger::after:active {
+
+}
+
+/*------*/
+
+.title--header {
+	margin-bottom: 20px;
+}
+.header__text {
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 20px;
+	color: #f4f4f7;
+	width: 97%;
+	margin-bottom: 70px;
+}
+.slide--header {
+	text-decoration: none;
+	color: #f4f4f7;
+}
+
+/* ABOUT */
+.about {
+}
+.about__content {
+}
+
+.about__item {
+
+}
+
+.title--about {
+}
+.about {
+}
+.about__text {
+}
+
+.services {
+}
+.services__content {
+}
+
+.services__item {
+}
+
+.services__slide {
+}
+
+.title--services {
+}
+.work {
+}
+.work__text {
+}
+
+.work__gallery {
+}
+
+.work__slide {
+}
+
+.title--work {
+}
+.item {
+}
+.item__title {
+}
+
+.item__text {
+}
+
+.inside {
+}
+.inside__text {
+}
+
+.inside__slider {
+}
+
+.title--inside {
+}
+.latest-news {
+}
+.title--news {
+}
+.news {
+}
+.news__content {
+}
+
+.news__date {
+}
+.contacts {
+}
+.contacts__text {
+}
+
+.contacts__social {
+}
+
+.contacts__slide {
+}
+
+.title--footer {
+}
+.addres {
+}
+
+.addres__country {
+}
+
+.addres__content {
+}
+
+.footer--menu {
+}
